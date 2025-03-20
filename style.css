@@ -1,0 +1,75 @@
+/* Ajustes generales para todo el sitio */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Estilos de la pantalla de inicio */
+.inicio {
+    background: url('gojo3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.feliz {
+    background: url('gojo2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.carta {
+    background: url('gojo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Estilos del texto */
+h1, h2 {
+    color: #FFD700; /* Dorado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #FFFFFF;
+}
+
+/* Botones */
+.btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sorpresa {
+    background-color: #FF4500; /* Naranja */
+    color: white;
+}
+
+.carta {
+    background-color: #1E90FF; /* Azul */
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
